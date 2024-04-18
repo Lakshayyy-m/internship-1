@@ -1,0 +1,30 @@
+.peopleImage {
+  /* height: 400px ; */
+  height: 12rem;
+}
+
+.activeButton {
+  color: #8064a2;
+  border-bottom: 3px solid #8064a2;
+  border-radius: 0%;
+}
+
+.inactiveButton {
+  color: grey;
+}
+
+.seperator {
+  height: 2.4rem;
+}
+
+.placeEye {
+  top: 20px;
+  left: 94%;
+}
+
+.checkBox {
+  accent-color: #8064a2;
+}
+.lock{
+  height: 20px;
+}
