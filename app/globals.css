@@ -170,7 +170,8 @@ a {
 
 .peopleCard:hover > .peopleCardIcon,
 .placeCard:hover > .placeCardIcon,
-.productCard:hover > .productCardIcon, .programCard:hover > .programCardIcon {
+.productCard:hover > .productCardIcon,
+.programCard:hover > .programCardIcon {
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(233deg)
     brightness(104%) contrast(101%);
 }
@@ -191,4 +192,9 @@ a {
   background-color: #4294c3;
   color: white;
   transition: all 0.2s;
+}
+
+.scrollToTop {
+  bottom: 20px;
+  right: 20px;
 }

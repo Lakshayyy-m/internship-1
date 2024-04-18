@@ -5,10 +5,12 @@ import Cards from "@/Components/Cards";
 import AddNew from "@/Components/AddNew";
 import Testimonials from "@/Components/Testimonials";
 import GetStarted from "@/Components/GetStarted";
+import ScrollToTop from "@/Components/ScrollToTop";
 
 export default function Home() {
   return (
     <main>
+      <ScrollToTop />
       <section className="bg-second ">
         <LandingPage />
       </section>
